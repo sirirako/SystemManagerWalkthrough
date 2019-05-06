@@ -1,0 +1,191 @@
+VERBOSE: [2019-05-05 16:20:16.348] Sending HTTP Get request to 
+'https://s3.amazonaws.com/aws-ssm-us-east-1/statemanagerdocumentspayload/AWS-ApplyDSCMofs/AWS-ApplyDSCMofs-20190223.ps1
+'
+VERBOSE: [2019-05-05 16:20:16.458] Received response with status code OK
+VERBOSE: [2019-05-05 16:20:16.458] Local file did not exist, or did not match remote file ETag (MD5) value. New content
+ was downloaded.
+VERBOSE: [2019-05-05 16:20:16.888] Importing script functions
+VERBOSE: [2019-05-05 16:20:18.078]  Importing AWSPowerShell module
+VERBOSE: [2019-05-05 16:20:30.519]  Ensuring AWSPowerShell module is v3.3.270.0 or higher
+VERBOSE: [2019-05-05 16:20:30.535]  AWSPowerShell module is at or above the minimum required version. Installed: 
+3.3.485.0
+VERBOSE: [2019-05-05 16:20:30.535]  Ensuring AWS RegionEndpoint can be obtained by FallbackRegionFactory
+VERBOSE: [2019-05-05 16:20:30.801]  Ensuring AWSCredentials can be obtained from FallbackCredentialsFactory
+VERBOSE: [2019-05-05 16:20:30.849]  Ensuring we can retrieve the instance Id of the machine
+VERBOSE: [2019-05-05 16:20:30.864]   Retrieving instanceID from SSM environment variable
+VERBOSE: [2019-05-05 16:20:31.523]     Sending HTTP Get request to 
+'https://siri-powershelldsc.s3.amazonaws.com/webserver.mof?AWSAccessKeyId=ASIAU3WYMR4ZBX6W6YMM&Expires=1557074131&x-amz
+-security-token=AgoJb3JpZ2luX2VjEAkaCXVzLWVhc3QtMSJIMEYCIQDh9dYijoKherqvlEJiMrkMihYN0N6iEmKphq3QrRf7UgIhANp4W02ZYQAV7sf
+Q6gZfcOh8Xg2Iu0Tj5hPbkLNIhVVFKuMDCPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMzM0Mzg3NTE1MTg2Igy%2FH1w%2BhMXbVwPxJ8oqtwMDYQ
+G8hWvK5Ew%2F3ScCSXFA33fDWkw2Hx1FH8iaoB7jXK58t9drJ38PgvEfvcag3s9bwnr3DtD7PP8ApG6K18EMWES8tUX6pvlbVeq6d4wYsuBXkEhCgiaW8s7
+pfhxA1JIIPlrSLuaUDD%2BMfBWkDWIGj%2FWETBYJowqnxM7HovaaUrXloaOSdL17O6ac%2FQA0DAIYFP9cbnTT6Clz8%2FrPPkyC29kuxGyja9fDzYtiTt
+CoTcnu0Q0asEKMwpBQcT%2Bo4tty60oN0n4BI%2F3AZFv6x50dRjtyqTF4pDYbsbXewLG6WPTZTb%2B3JD7En7N1PWFdcsLr5Tbl6ijX%2BAqguE%2Fe9Jw
+ejA2%2Bq3XE5tcVtQsmt5PuhQxcoZxEfABnizVnLysvsjWERyGD5W%2BnTsYomFebudUHnUI%2BzVTQdWioXnOcHKkgGyUJznSAw15U3EBJD0oaJ3GhZpg%
+2Bwwj5TlxKrwzyYz7brPzGx1D%2FYEU43aqZy%2BJiOvjFWNEVMqQ%2BBoYOCa47rmVOBTOlROGcF0ljBDMV4053wDhONm%2F3zPq5iw%2F%2FhQ0Wcp60M
+AeeCwr0YGRFgIefvIW9dbwajphQMLCZvOYFOrMBSbpUH5OL5S1qchdNKqc2VSmjOwBf0HqdbBM%2FkNdPtx54MP0Pw%2BTPJekVCWnW12dDlia7ukKHn60X
+shSPFVxkTvB8TG2CrIVyU82LDyVzImbv4fsn8XxlG0YzOV7ZgIROAsXq1hL916OsFXz1%2FqxoP6gjYMUsdQfwTYA1cj52dbL0pZanbiy90wyxV%2BpshnD
+C4qLtCUVPt358ULBtE7J5q%2Bwd%2B3nFZdRKtcqbKqSh9jtl6lU%3D&Signature=g24JcqYx%2FqEZcRPt3jwrlfCK1Lo%3D'
+VERBOSE: [2019-05-05 16:20:31.600]     Received response with status code OK
+VERBOSE: [2019-05-05 16:20:31.600]     Local file did not exist, or did not match remote file ETag (MD5) value. New 
+content was downloaded.
+VERBOSE: [2019-05-05 16:20:31.632]   Verifying integrity of downloaded MOF
+VERBOSE: [2019-05-05 16:20:31.684]   Reading MOF and ensure that it is compatible with the installed version
+VERBOSE: [2019-05-05 16:20:31.710]   Stripping out all the unnecessary items from the MOF
+VERBOSE: [2019-05-05 16:20:31.746]   Extracting required modules from the MOF and ensuring they are installed
+VERBOSE: [2019-05-05 16:20:31.777]      Retrieving all installed DSC Resources
+VERBOSE: [2019-05-05 16:20:39.219]     Installing NuGet package provider
+VERBOSE: [2019-05-05 16:20:40.853]     Installing module 'xWebAdministration' version '2.5.0.0' from PSGallery
+VERBOSE: [2019-05-05 16:20:47.974]   Instantiating helpers
+VERBOSE: [2019-05-05 16:20:47.994]    Retrieving all installed DSC Resources
+VERBOSE: [2019-05-05 16:20:49.248]   Populating resource cache with required resources
+VERBOSE: [2019-05-05 16:20:49.355]    Loading default Cim Keywords
+VERBOSE: [2019-05-05 16:20:49.374]    Retrieving cached Keywords
+VERBOSE: [2019-05-05 16:20:49.566]    Importing keywords from module "xWebAdministration"
+VERBOSE: [2019-05-05 16:20:49.582]   Importing the CIM instances from the MOF
+VERBOSE: [2019-05-05 16:20:49.604]   Found 4 resources in MOF
+VERBOSE: [2019-05-05 16:20:49.607]   Identifying SSM ParameterStore parameters
+VERBOSE: [2019-05-05 16:20:49.655]    Resolving SSM parameters: DestinationPath, SourcePath
+VERBOSE: [2019-05-05 16:20:49.866]    Resolved parameter store token "DestinationPath" to value "C:\WebSite"
+VERBOSE: [2019-05-05 16:20:49.866]    Resolved parameter store token "SourcePath" to value 
+"\\fs-0063407d71a5c7e44.workspace.sirirat.local\share\Data\WebSite"
+VERBOSE: [2019-05-05 16:20:49.898]   Converting the CIM instances into usable objects
+VERBOSE: [2019-05-05 16:20:49.898]    Converting resource "[WindowsFeature]IIS"
+VERBOSE: [2019-05-05 16:20:50.010]    Converting resource "[WindowsFeature]AspNet45"
+VERBOSE: [2019-05-05 16:20:50.019]    Converting resource "[File]WebContent"
+VERBOSE: [2019-05-05 16:20:50.064]     Retrieving tags for instance 'i-08f04f7875605e925'
+VERBOSE: [2019-05-05 16:20:50.340]     Retrieved 2 tags for instance "i-08f04f7875605e925"
+VERBOSE: [2019-05-05 16:20:50.340]     Tag "Role" has value "App1-WebServer"
+VERBOSE: [2019-05-05 16:20:50.340]     Tag "aws:autoscaling:groupName" has value "App1-WebServer-AG"
+VERBOSE: [2019-05-05 16:20:50.340]    Tag 'DestinationPath' was not present, but a global parameter store entry was. 
+Using parameter store entry as fallback.
+VERBOSE: [2019-05-05 16:20:50.356]    Tag 'SourcePath' was not present, but a global parameter store entry was. Using 
+parameter store entry as fallback.
+VERBOSE: [2019-05-05 16:20:50.385]    SecretID did not start with 'arn', attempting to retrieve secret 'siriratk' from 
+Parameter Store first.
+VERBOSE: [2019-05-05 16:20:50.426]    Secret secret 'siriratk' was not found in Parameter Store.
+VERBOSE: [2019-05-05 16:20:50.426]    Retrieving secret 'siriratk' from Secrets Manager
+VERBOSE: [2019-05-05 16:20:50.567]    Verifying secret 'siriratk' is in the correct JSON format
+VERBOSE: [2019-05-05 16:20:50.719]    Converting resource "[xWebsite]DefaultSite"
+VERBOSE: [2019-05-05 16:20:50.719]   Resolving dependencies to ensure resources are correctly ordered
+VERBOSE: [2019-05-05 16:20:50.824]     Invoking Test on resource "[WindowsFeature]IIS"
+VERBOSE: [2019-05-05 16:20:53.445]     @{Timestamp=2019-05-05 16:20:53.429; Message=LCM: [ Start Test ]}
+VERBOSE: [2019-05-05 16:20:54.256]     @{Timestamp=2019-05-05 16:20:54.256; Message=The operation 'Get-WindowsFeature' 
+started: Web-Server}
+VERBOSE: [2019-05-05 16:21:13.763]     @{Timestamp=2019-05-05 16:21:13.763; Message=The operation 'Get-WindowsFeature' 
+succeeded: Web-Server}
+VERBOSE: [2019-05-05 16:21:13.785]     @{Timestamp=2019-05-05 16:21:13.785; Message=LCM: [ End Test ]  False in 20.3650
+ seconds.}
+VERBOSE: [2019-05-05 16:21:13.787]     @{Timestamp=2019-05-05 16:21:13.787; Message=LCM: [ End Set ] in 21.8660 
+seconds.}
+VERBOSE: [2019-05-05 16:21:13.837]     Invoking Set on resource "[WindowsFeature]IIS"
+VERBOSE: [2019-05-05 16:21:14.051]     LCM: [ Start Set ]
+VERBOSE: [2019-05-05 16:21:14.098]     Installation started...
+VERBOSE: [2019-05-05 16:21:14.796]     Continue with installation?
+VERBOSE: [2019-05-05 16:21:14.811]     Prerequisite processing started...
+VERBOSE: [2019-05-05 16:21:33.584]     Prerequisite processing succeeded.
+VERBOSE: [2019-05-05 16:22:31.564]     Installation succeeded.
+VERBOSE: [2019-05-05 16:22:31.592]     Successfully installed the feature Web-Server.
+VERBOSE: [2019-05-05 16:22:31.614]     LCM: [ End Set ]  in 77.5930 seconds.
+VERBOSE: [2019-05-05 16:22:31.614]     LCM: [ End Set ] in 77.6720 seconds.
+VERBOSE: [2019-05-05 16:22:31.673]    Retesting resource "[WindowsFeature]IIS"
+VERBOSE: [2019-05-05 16:22:31.673]     Invoking Test on resource "[WindowsFeature]IIS"
+VERBOSE: [2019-05-05 16:22:32.130]     @{Timestamp=2019-05-05 16:22:32.130; Message=LCM: [ Start Test ]}
+VERBOSE: [2019-05-05 16:22:32.175]     @{Timestamp=2019-05-05 16:22:32.175; Message=The operation 'Get-WindowsFeature' 
+started: Web-Server}
+VERBOSE: [2019-05-05 16:22:32.941]     @{Timestamp=2019-05-05 16:22:32.941; Message=The operation 'Get-WindowsFeature' 
+succeeded: Web-Server}
+VERBOSE: [2019-05-05 16:22:32.941]     @{Timestamp=2019-05-05 16:22:32.941; Message=LCM: [ End Test ]  True in 0.8260 
+seconds.}
+VERBOSE: [2019-05-05 16:22:32.941]     @{Timestamp=2019-05-05 16:22:32.941; Message=LCM: [ End Set ] in 0.9040 
+seconds.}
+VERBOSE: [2019-05-05 16:22:32.998]     Invoking Test on resource "[WindowsFeature]AspNet45"
+VERBOSE: [2019-05-05 16:22:33.182]     @{Timestamp=2019-05-05 16:22:33.182; Message=LCM: [ Start Test ]}
+VERBOSE: [2019-05-05 16:22:33.211]     @{Timestamp=2019-05-05 16:22:33.211; Message=The operation 'Get-WindowsFeature' 
+started: Web-Asp-Net45}
+VERBOSE: [2019-05-05 16:22:33.714]     @{Timestamp=2019-05-05 16:22:33.714; Message=The operation 'Get-WindowsFeature' 
+succeeded: Web-Asp-Net45}
+VERBOSE: [2019-05-05 16:22:33.714]     @{Timestamp=2019-05-05 16:22:33.714; Message=LCM: [ End Test ]  False in 0.5320 
+seconds.}
+VERBOSE: [2019-05-05 16:22:33.730]     @{Timestamp=2019-05-05 16:22:33.730; Message=LCM: [ End Set ] in 0.6100 
+seconds.}
+VERBOSE: [2019-05-05 16:22:33.759]     Invoking Set on resource "[WindowsFeature]AspNet45"
+VERBOSE: [2019-05-05 16:22:33.935]     LCM: [ Start Set ]
+VERBOSE: [2019-05-05 16:22:33.967]     Installation started...
+VERBOSE: [2019-05-05 16:22:34.671]     Continue with installation?
+VERBOSE: [2019-05-05 16:22:34.671]     Prerequisite processing started...
+VERBOSE: [2019-05-05 16:22:44.582]     Prerequisite processing succeeded.
+VERBOSE: [2019-05-05 16:23:23.425]     Installation succeeded.
+VERBOSE: [2019-05-05 16:23:23.425]     Successfully installed the feature Web-Asp-Net45.
+VERBOSE: [2019-05-05 16:23:23.425]     LCM: [ End Set ]  in 49.4900 seconds.
+VERBOSE: [2019-05-05 16:23:23.425]     LCM: [ End Set ] in 49.5680 seconds.
+VERBOSE: [2019-05-05 16:23:23.480]    Retesting resource "[WindowsFeature]AspNet45"
+VERBOSE: [2019-05-05 16:23:23.480]     Invoking Test on resource "[WindowsFeature]AspNet45"
+VERBOSE: [2019-05-05 16:23:23.810]     @{Timestamp=2019-05-05 16:23:23.810; Message=LCM: [ Start Test ]}
+VERBOSE: [2019-05-05 16:23:23.830]     @{Timestamp=2019-05-05 16:23:23.830; Message=The operation 'Get-WindowsFeature' 
+started: Web-Asp-Net45}
+VERBOSE: [2019-05-05 16:23:24.752]     @{Timestamp=2019-05-05 16:23:24.752; Message=The operation 'Get-WindowsFeature' 
+succeeded: Web-Asp-Net45}
+VERBOSE: [2019-05-05 16:23:24.768]     @{Timestamp=2019-05-05 16:23:24.752; Message=LCM: [ End Test ]  True in 0.9260 
+seconds.}
+VERBOSE: [2019-05-05 16:23:24.768]     @{Timestamp=2019-05-05 16:23:24.768; Message=LCM: [ End Set ] in 1.0200 
+seconds.}
+VERBOSE: [2019-05-05 16:23:24.852]     Invoking Test on resource "[File]WebContent"
+VERBOSE: [2019-05-05 16:23:25.022]     @{Timestamp=2019-05-05 16:23:25.022; Message=LCM: [ Start Test ]}
+VERBOSE: [2019-05-05 16:23:25.106]     @{Timestamp=2019-05-05 16:23:25.106; Message=The system cannot find the file 
+specified.}
+VERBOSE: [2019-05-05 16:23:25.114]     @{Timestamp=2019-05-05 16:23:25.114; Message=The related file/directory is: 
+C:\WebSite.}
+VERBOSE: [2019-05-05 16:23:25.387]     @{Timestamp=2019-05-05 16:23:25.387; Message=Building file list from cache.}
+VERBOSE: [2019-05-05 16:23:25.418]     @{Timestamp=2019-05-05 16:23:25.418; Message=LCM: [ End Test ]  False in 0.3650 
+seconds.}
+VERBOSE: [2019-05-05 16:23:25.418]     @{Timestamp=2019-05-05 16:23:25.418; Message=LCM: [ End Set ] in 0.3810 
+seconds.}
+VERBOSE: [2019-05-05 16:23:25.443]     Invoking Set on resource "[File]WebContent"
+VERBOSE: [2019-05-05 16:23:25.564]     LCM: [ Start Set ]
+VERBOSE: [2019-05-05 16:23:25.580]     The system cannot find the file specified.
+VERBOSE: [2019-05-05 16:23:25.583]     The related file/directory is: C:\WebSite.
+VERBOSE: [2019-05-05 16:23:25.587]     Building file list from cache.
+VERBOSE: [2019-05-05 16:23:25.623]     Copying file 
+\\fs-0063407d71a5c7e44.workspace.sirirat.local\share\Data\WebSite\index.html to C:\WebSite\index.html.
+VERBOSE: [2019-05-05 16:23:25.661]     LCM: [ End Set ]  in 0.0940 seconds.
+VERBOSE: [2019-05-05 16:23:25.661]     LCM: [ End Set ] in 0.1100 seconds.
+VERBOSE: [2019-05-05 16:23:25.687]    Retesting resource "[File]WebContent"
+VERBOSE: [2019-05-05 16:23:25.736]     Invoking Test on resource "[File]WebContent"
+VERBOSE: [2019-05-05 16:23:25.868]     @{Timestamp=2019-05-05 16:23:25.868; Message=LCM: [ Start Test ]}
+VERBOSE: [2019-05-05 16:23:25.878]     @{Timestamp=2019-05-05 16:23:25.878; Message=Building file list from cache.}
+VERBOSE: [2019-05-05 16:23:25.894]     @{Timestamp=2019-05-05 16:23:25.894; Message=The destination object was found 
+and no action is required.}
+VERBOSE: [2019-05-05 16:23:25.894]     @{Timestamp=2019-05-05 16:23:25.894; Message=LCM: [ End Test ]  True in 0.0260 
+seconds.}
+VERBOSE: [2019-05-05 16:23:25.909]     @{Timestamp=2019-05-05 16:23:25.909; Message=LCM: [ End Set ] in 0.0420 
+seconds.}
+VERBOSE: [2019-05-05 16:23:25.934]     Invoking Test on resource "[xWebsite]DefaultSite"
+VERBOSE: [2019-05-05 16:23:26.601]     @{Timestamp=2019-05-05 16:23:26.601; Message=LCM: [ Start Test ]}
+VERBOSE: [2019-05-05 16:23:27.174]     @{Timestamp=2019-05-05 16:23:27.174; Message=Physical Path of website "Default 
+Web Site" does not match the desired state.}
+VERBOSE: [2019-05-05 16:23:27.213]     @{Timestamp=2019-05-05 16:23:27.213; Message=The target resource is not in the 
+desired state.}
+VERBOSE: [2019-05-05 16:23:27.213]     @{Timestamp=2019-05-05 16:23:27.213; Message=LCM: [ End Test ]  False in 0.6270 
+seconds.}
+VERBOSE: [2019-05-05 16:23:27.213]     @{Timestamp=2019-05-05 16:23:27.213; Message=LCM: [ End Set ] in 1.1740 
+seconds.}
+VERBOSE: [2019-05-05 16:23:27.253]     Invoking Set on resource "[xWebsite]DefaultSite"
+VERBOSE: [2019-05-05 16:23:27.356]     LCM: [ Start Set ]
+VERBOSE: [2019-05-05 16:23:27.585]     Physical Path for website "Default Web Site" has been updated to "C:\WebSite".
+VERBOSE: [2019-05-05 16:23:27.600]     LCM: [ End Set ]  in 0.2280 seconds.
+VERBOSE: [2019-05-05 16:23:27.600]     LCM: [ End Set ] in 0.2750 seconds.
+VERBOSE: [2019-05-05 16:23:27.630]    Retesting resource "[xWebsite]DefaultSite"
+VERBOSE: [2019-05-05 16:23:27.630]     Invoking Test on resource "[xWebsite]DefaultSite"
+VERBOSE: [2019-05-05 16:23:27.755]     @{Timestamp=2019-05-05 16:23:27.754; Message=LCM: [ Start Test ]}
+VERBOSE: [2019-05-05 16:23:27.791]     @{Timestamp=2019-05-05 16:23:27.791; Message=The target resource is already in 
+the desired state. No action is required.}
+VERBOSE: [2019-05-05 16:23:27.793]     @{Timestamp=2019-05-05 16:23:27.793; Message=LCM: [ End Test ]  True in 0.0720 
+seconds.}
+VERBOSE: [2019-05-05 16:23:27.797]     @{Timestamp=2019-05-05 16:23:27.797; Message=LCM: [ End Set ] in 0.1070 
+seconds.}
+VERBOSE: [2019-05-05 16:23:27.934]   Writing report to bucket "siri-powershelldsc-report" and key 
+"default/i-08f04f7875605e925/57010449921277949-20190505-162327-Compliant-4-0"
+VERBOSE: [2019-05-05 16:23:28.302]   Writing status to bucket "siri-powershelldsc-logs" and key 
+"default/i-08f04f7875605e925"
+VERBOSE: [2019-05-05 16:23:28.617]   Writing compliance items to SSM
+VERBOSE: [2019-05-05 16:23:28.752]  Cleaning up credential cache

@@ -1,0 +1,12 @@
+s3:siri-powershelldsc:webserver.mof
+siri-powershelldsc-logs
+siri-powershelldsc-report
+siri-ssm-logs
+statemanager/dsc/webserver
+s3://siri-ssm-logs/statemanager/dsc/webserver
+cp .\MyDscConfiguration\localhost.mof .\MyDscConfiguration\webserver.mof
+aws s3 cp .\MyDscConfiguration\webserver.mof s3://siri-powershelldsc/webserver.mof
+
+aws s3api list-objects --bucket siri-ssm-logs --query "Contents[?contains(Key, 'i-025c8b6c8a4103b9d')]"
+
+aws s3api get-object --bucket siri-ssm-logs --key statemanager/powershelldsc/webserver/df29c3ba-7c52-47e2-a746-571e247648f0/i-025c8b6c8a4103b9d/awsrunPowerShellScript/RunPowerShell/stdout file.txt

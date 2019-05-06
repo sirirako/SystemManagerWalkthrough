@@ -1,0 +1,149 @@
+VERBOSE: [2019-05-05 19:34:02.198] Sending HTTP Get request to 
+'https://s3.amazonaws.com/aws-ssm-us-east-1/statemanagerdocumentspayload/AWS-ApplyDSCMofs/AWS-ApplyDSCMofs-20190223.ps1
+'
+VERBOSE: [2019-05-05 19:34:02.289] Received response with status code NotModified
+VERBOSE: [2019-05-05 19:34:02.304] Local file matches remote file, no content was downloaded.
+VERBOSE: [2019-05-05 19:34:02.320] Importing script functions
+VERBOSE: [2019-05-05 19:34:03.163]  Importing AWSPowerShell module
+VERBOSE: [2019-05-05 19:34:06.762]  Ensuring AWSPowerShell module is v3.3.270.0 or higher
+VERBOSE: [2019-05-05 19:34:06.776]  AWSPowerShell module is at or above the minimum required version. Installed: 
+3.3.485.0
+VERBOSE: [2019-05-05 19:34:06.779]  Ensuring AWS RegionEndpoint can be obtained by FallbackRegionFactory
+VERBOSE: [2019-05-05 19:34:06.912]  Ensuring AWSCredentials can be obtained from FallbackCredentialsFactory
+VERBOSE: [2019-05-05 19:34:06.943]  Ensuring we can retrieve the instance Id of the machine
+VERBOSE: [2019-05-05 19:34:06.968]   Retrieving instanceID from SSM environment variable
+VERBOSE: [2019-05-05 19:34:07.346]     Sending HTTP Get request to 
+'https://siri-powershelldsc.s3.amazonaws.com/webserver.mof?AWSAccessKeyId=ASIAU3WYMR4ZF6UOLI7A&Expires=1557085747&x-amz
+-security-token=AgoJb3JpZ2luX2VjEAwaCXVzLWVhc3QtMSJHMEUCIGItTihRply%2FcqBni7WErXdF5L7i%2BzkfkQBSqZZmdOXDAiEAyYpB69QZgmc
+ENgFwYIIFrOvcJc2NrUYx1QD92wc%2FkSAq4wMI9P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwzMzQzODc1MTUxODYiDA%2B7nBBN4T9KTYuHFyq3A1
+f%2FKSFjvagNTdU8ZA2UsK6Hl1tMIQxCeVwnuaTAMB2fEWy4rhkjoVV7jUrEy%2BK9xCMFvHUGYDR4%2F8QDbkk4GIDLw5NWyt0jqrytWXqP4MiZXFcMLJ0
+DzyFU60U1fBkSGwH%2BJjJa5hmfm4EetWooOTFQcBHyE0wxmwktQ%2FyN1GRH8BkbMAP0igE%2BMbC%2BJHgwPFku2oflVEpmgm5Adj7fBYj4chS4y0pARQ
+kJ92nHnkxPCeOqpYLy7k0wIc246vOA4%2FoWxKMCEBfQ6HQ6iR02Pw0zqkf2csB1vpbU9%2FWLsRbn9Xay94Wt3jJPtjauUKq8OzkAG1HpbM%2BJWWLczPM
+p%2BQBE55zdVCjL8lD0LgAqJQgRCUt5plYoPJgjHBtrTGiNnfDG3%2FmP0BAcmgupP7jNSpjf99NGidGIO7I9kqJBSqO1q6b1XAVrVFZGXYZHyrqx4Mx8dA
+rhRHgZmHjZ%2BnoVA03iHrVV5poEsy4pXr57jD94MdGBekdlLdVrv04GjkUdkvVPfNozM8h%2F2b9dm1wq0DD%2B%2BuBn1PVtT5ydv2aPW%2B86bQpoqxx
+aMOixhkoicXCqg8hYTtSIRcEw%2F%2B685gU6tAFXNmVaqec2zlmX3qjKtnquDn9OZh6l6eJOAaCcPKC6Aoyz%2Fe1RSFTh5Q61dRew53n6Qk9owh8ns9hr
+MHKq4dsmCfWorAI5Aaz88TTfCshY%2FIJpenJ6FqrsFqHsyb1yQFTT8%2FRYyIGF7zcxr3bsVymgrvyMaKA85y2fWFll2rHLqNIzm3f4S%2BUo5strtECt3
+n7juL1dKsbSIOzEk88C5i8shlgVtQCtr9kVlfc8Y2118MZOo5c%3D&Signature=elIHq8ypg0xxGt7i5irzQ6TSAJE%3D'
+VERBOSE: [2019-05-05 19:34:07.396]     Received response with status code NotModified
+VERBOSE: [2019-05-05 19:34:07.396]     Local file matches remote file, no content was downloaded.
+VERBOSE: [2019-05-05 19:34:07.396]   Verifying integrity of downloaded MOF
+VERBOSE: [2019-05-05 19:34:07.513]   Reading MOF and ensure that it is compatible with the installed version
+VERBOSE: [2019-05-05 19:34:07.535]   Stripping out all the unnecessary items from the MOF
+VERBOSE: [2019-05-05 19:34:07.572]   Extracting required modules from the MOF and ensuring they are installed
+VERBOSE: [2019-05-05 19:34:07.588]      Retrieving all installed DSC Resources
+VERBOSE: [2019-05-05 19:34:12.447]   Instantiating helpers
+VERBOSE: [2019-05-05 19:34:12.466]   Populating resource cache with required resources
+VERBOSE: [2019-05-05 19:34:12.477]    Loading default Cim Keywords
+VERBOSE: [2019-05-05 19:34:12.496]    Retrieving cached Keywords
+VERBOSE: [2019-05-05 19:34:12.528]    Importing keywords from module "xWebAdministration"
+VERBOSE: [2019-05-05 19:34:12.556]   Importing the CIM instances from the MOF
+VERBOSE: [2019-05-05 19:34:12.562]   Found 4 resources in MOF
+VERBOSE: [2019-05-05 19:34:12.565]   Identifying SSM ParameterStore parameters
+VERBOSE: [2019-05-05 19:34:12.707]    Resolving SSM parameters: DestinationPath, SourcePath
+VERBOSE: [2019-05-05 19:34:12.888]    Resolved parameter store token "DestinationPath" to value "C:\WebSite"
+VERBOSE: [2019-05-05 19:34:12.888]    Resolved parameter store token "SourcePath" to value 
+"\\fs-0063407d71a5c7e44.workspace.sirirat.local\share\Data\WebSite"
+VERBOSE: [2019-05-05 19:34:12.888]   Converting the CIM instances into usable objects
+VERBOSE: [2019-05-05 19:34:12.904]    Converting resource "[WindowsFeature]IIS"
+VERBOSE: [2019-05-05 19:34:13.012]    Converting resource "[WindowsFeature]AspNet45"
+VERBOSE: [2019-05-05 19:34:13.020]    Converting resource "[File]WebContent"
+VERBOSE: [2019-05-05 19:34:13.066]     Retrieving tags for instance 'i-025c8b6c8a4103b9d'
+VERBOSE: [2019-05-05 19:34:13.339]     Retrieved 3 tags for instance "i-025c8b6c8a4103b9d"
+VERBOSE: [2019-05-05 19:34:13.339]     Tag "Name" has value "App1-WebServer"
+VERBOSE: [2019-05-05 19:34:13.339]     Tag "aws:autoscaling:groupName" has value "App1-WebServer-AG"
+VERBOSE: [2019-05-05 19:34:13.339]     Tag "Role" has value "App1-WebServer"
+VERBOSE: [2019-05-05 19:34:13.339]    Tag 'DestinationPath' was not present, but a global parameter store entry was. 
+Using parameter store entry as fallback.
+VERBOSE: [2019-05-05 19:34:13.355]    Tag 'SourcePath' was not present, but a global parameter store entry was. Using 
+parameter store entry as fallback.
+VERBOSE: [2019-05-05 19:34:13.390]    SecretID did not start with 'arn', attempting to retrieve secret 'siriratk' from 
+Parameter Store first.
+VERBOSE: [2019-05-05 19:34:13.428]    Secret secret 'siriratk' was not found in Parameter Store.
+VERBOSE: [2019-05-05 19:34:13.428]    Retrieving secret 'siriratk' from Secrets Manager
+VERBOSE: [2019-05-05 19:34:13.523]    Verifying secret 'siriratk' is in the correct JSON format
+VERBOSE: [2019-05-05 19:34:13.591]    Converting resource "[xWebsite]DefaultSite"
+VERBOSE: [2019-05-05 19:34:13.606]   Resolving dependencies to ensure resources are correctly ordered
+VERBOSE: [2019-05-05 19:34:13.704]     Invoking Test on resource "[WindowsFeature]IIS"
+VERBOSE: [2019-05-05 19:34:14.509]     @{Timestamp=2019-05-05 19:34:14.509; Message=LCM: [ Start Test ]}
+VERBOSE: [2019-05-05 19:34:14.788]     @{Timestamp=2019-05-05 19:34:14.772; Message=The operation 'Get-WindowsFeature' 
+started: Web-Server}
+VERBOSE: [2019-05-05 19:34:15.759]     @{Timestamp=2019-05-05 19:34:15.759; Message=The operation 'Get-WindowsFeature' 
+succeeded: Web-Server}
+VERBOSE: [2019-05-05 19:34:15.832]     @{Timestamp=2019-05-05 19:34:15.832; Message=LCM: [ End Test ]  True in 1.3850 
+seconds.}
+VERBOSE: [2019-05-05 19:34:15.832]     @{Timestamp=2019-05-05 19:34:15.832; Message=LCM: [ End Set ] in 1.8220 
+seconds.}
+VERBOSE: [2019-05-05 19:34:15.898]     Invoking Test on resource "[WindowsFeature]AspNet45"
+VERBOSE: [2019-05-05 19:34:16.081]     @{Timestamp=2019-05-05 19:34:16.081; Message=LCM: [ Start Test ]}
+VERBOSE: [2019-05-05 19:34:16.108]     @{Timestamp=2019-05-05 19:34:16.108; Message=The operation 'Get-WindowsFeature' 
+started: Web-Asp-Net45}
+VERBOSE: [2019-05-05 19:34:16.627]     @{Timestamp=2019-05-05 19:34:16.424; Message=The operation 'Get-WindowsFeature' 
+succeeded: Web-Asp-Net45}
+VERBOSE: [2019-05-05 19:34:16.647]     @{Timestamp=2019-05-05 19:34:16.646; Message=LCM: [ End Test ]  True in 0.3270 
+seconds.}
+VERBOSE: [2019-05-05 19:34:16.648]     @{Timestamp=2019-05-05 19:34:16.648; Message=LCM: [ End Set ] in 0.4050 
+seconds.}
+VERBOSE: [2019-05-05 19:34:16.682]     Invoking Test on resource "[File]WebContent"
+VERBOSE: [2019-05-05 19:34:16.831]     @{Timestamp=2019-05-05 19:34:16.831; Message=LCM: [ Start Test ]}
+VERBOSE: [2019-05-05 19:34:19.727]     @{Timestamp=2019-05-05 19:34:19.727; Message=An error occurs when accessing the 
+network share with the specified credential. Please make sure the credential is correct and the network share is 
+accessible. Note that Credential should not be specified with the local path.}
+VERBOSE: [2019-05-05 19:34:19.738]     @{Timestamp=2019-05-05 19:34:19.738; Message=The related file/directory is: 
+\\fs-0063407d71a5c7e44.workspace.sirirat.local\share\Data\WebSite.}
+VERBOSE: [2019-05-05 19:34:19.839]     ERROR: Microsoft.Management.Infrastructure.CimException: A specified logon 
+session does not exist. It may already have been terminated. An error occurs when accessing the network share with the 
+specified credential. Please make sure the credential is correct and the network share is accessible. Note that 
+Credential should not be specified with the local path. The related file/directory is: 
+\\fs-0063407d71a5c7e44.workspace.sirirat.local\share\Data\WebSite. 
+   at 
+Microsoft.Management.Infrastructure.Internal.Operations.CimAsyncObserverProxyBase`1.ProcessNativeCallback(OperationCall
+backProcessingContext callbackProcessingContext, T currentItem, Boolean moreResults, MiResult operationResult, String 
+errorMessage, InstanceHandle errorDetailsHandle)
+VERBOSE: [2019-05-05 19:34:19.839]     Invoking Set on resource "[File]WebContent"
+VERBOSE: [2019-05-05 19:34:19.989]     LCM: [ Start Set ]
+VERBOSE: [2019-05-05 19:34:20.005]     An error occurs when accessing the network share with the specified credential. 
+Please make sure the credential is correct and the network share is accessible. Note that Credential should not be 
+specified with the local path.
+VERBOSE: [2019-05-05 19:34:20.005]     The related file/directory is: 
+\\fs-0063407d71a5c7e44.workspace.sirirat.local\share\Data\WebSite.
+VERBOSE: [2019-05-05 19:34:20.034]     ERROR: Microsoft.Management.Infrastructure.CimException: A specified logon 
+session does not exist. It may already have been terminated. An error occurs when accessing the network share with the 
+specified credential. Please make sure the credential is correct and the network share is accessible. Note that 
+Credential should not be specified with the local path. The related file/directory is: 
+\\fs-0063407d71a5c7e44.workspace.sirirat.local\share\Data\WebSite.  The related ResourceID is 
+[File]DirectResourceAccess.
+   at 
+Microsoft.Management.Infrastructure.Internal.Operations.CimAsyncObserverProxyBase`1.ProcessNativeCallback(OperationCall
+backProcessingContext callbackProcessingContext, T currentItem, Boolean moreResults, MiResult operationResult, String 
+errorMessage, InstanceHandle errorDetailsHandle)
+VERBOSE: [2019-05-05 19:34:20.035]    Retesting resource "[File]WebContent"
+VERBOSE: [2019-05-05 19:34:20.035]     Invoking Test on resource "[File]WebContent"
+VERBOSE: [2019-05-05 19:34:20.179]     @{Timestamp=2019-05-05 19:34:20.164; Message=LCM: [ Start Test ]}
+VERBOSE: [2019-05-05 19:34:20.200]     @{Timestamp=2019-05-05 19:34:20.200; Message=An error occurs when accessing the 
+network share with the specified credential. Please make sure the credential is correct and the network share is 
+accessible. Note that Credential should not be specified with the local path.}
+VERBOSE: [2019-05-05 19:34:20.200]     @{Timestamp=2019-05-05 19:34:20.200; Message=The related file/directory is: 
+\\fs-0063407d71a5c7e44.workspace.sirirat.local\share\Data\WebSite.}
+VERBOSE: [2019-05-05 19:34:20.221]     ERROR: Microsoft.Management.Infrastructure.CimException: A specified logon 
+session does not exist. It may already have been terminated. An error occurs when accessing the network share with the 
+specified credential. Please make sure the credential is correct and the network share is accessible. Note that 
+Credential should not be specified with the local path. The related file/directory is: 
+\\fs-0063407d71a5c7e44.workspace.sirirat.local\share\Data\WebSite. 
+   at 
+Microsoft.Management.Infrastructure.Internal.Operations.CimAsyncObserverProxyBase`1.ProcessNativeCallback(OperationCall
+backProcessingContext callbackProcessingContext, T currentItem, Boolean moreResults, MiResult operationResult, String 
+errorMessage, InstanceHandle errorDetailsHandle)
+VERBOSE: [2019-05-05 19:34:20.251]     Invoking Test on resource "[xWebsite]DefaultSite"
+VERBOSE: [2019-05-05 19:34:20.556]     @{Timestamp=2019-05-05 19:34:20.556; Message=LCM: [ Start Test ]}
+VERBOSE: [2019-05-05 19:34:21.017]     @{Timestamp=2019-05-05 19:34:21.017; Message=The target resource is already in 
+the desired state. No action is required.}
+VERBOSE: [2019-05-05 19:34:21.033]     @{Timestamp=2019-05-05 19:34:21.033; Message=LCM: [ End Test ]  True in 0.4610 
+seconds.}
+VERBOSE: [2019-05-05 19:34:21.033]     @{Timestamp=2019-05-05 19:34:21.033; Message=LCM: [ End Set ] in 0.7090 
+seconds.}
+VERBOSE: [2019-05-05 19:34:21.167]   Writing report to bucket "siri-powershelldsc-report" and key 
+"default/i-025c8b6c8a4103b9d/57010335388633663-20190505-193421-NotCompliant-3-1"
+VERBOSE: [2019-05-05 19:34:21.499]   Writing status to bucket "siri-powershelldsc-logs" and key 
+"default/i-025c8b6c8a4103b9d"
+VERBOSE: [2019-05-05 19:34:21.799]   Writing compliance items to SSM
+VERBOSE: [2019-05-05 19:34:21.957]  Cleaning up credential cache
