@@ -1,8 +1,24 @@
-#Overall Steps
+# Overall Steps
 
 1. Create 4 S3 bucket for storing MOF, Compliance Report, DSC execution log and State Manager Execution log.
-2. Create EC2 Service role that include SSMBasicPolicy, S3Readonly, and add Inline Policy
+2. Create EC2 Service role that include AmazonEC2RoleforSSM, AmazonS3ReadOnlyAccess , SecretsManagerReadWrite  and add Inline Policy
 
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "SSMPermissionsForTagAccess",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:DescribeInstances",
+                "ssm:ListTagsForResource"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+```
 
 2. Authoring PowerShellDSC and create a Managed Object Format (MOF) files.
 3. Add Credential in Secret Manager
